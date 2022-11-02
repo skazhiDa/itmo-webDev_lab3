@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+table {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.header, .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.main {
+  padding-top: 0;
+}
+
+.btn-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 600px;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.btn {
+  padding: 12px 20px;
+  background-color: #d799f2;
+  border: none;
+  border-radius: 15px;
+}
+
+.delete-line {
+  background-color: transparent;
+}
+
+.delete-label {
+  background-color: #d799f2;
+  border-radius: 15px;
+  padding: 12px 15px 12px 2px;
+}
+
+.delete-input {
+  border: none;
+  border-radius: 4px;
+  padding: 3px 2px;
+}
+
+.list-elem {
+  background-color: #d799f2;
+}
+
+.id-column {
+  width: 20%;
+}

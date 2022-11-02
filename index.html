@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <ul class="btn-list">
+      <li class="btn-list__item">
+        <button id="create" class="create-table btn">create</button>
+      </li>
+      <li class="btn-list__item">
+        <button id="add-line" class="add-line btn" disabled>add line</button>
+      </li>
+      <li class="btn-list__item">
+        <label class="delete-label">
+          <button id="delete-line" class="delete-line btn" disabled>delete line</button>
+          <input id="delete-input" type="number" class="delete-input" placeholder="line number">
+        </label>
+      </li>
+    </ul>
+  </header>
+  <main id="main" class="main"></main>
+</body>
+</html>
